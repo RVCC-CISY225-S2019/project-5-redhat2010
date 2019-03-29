@@ -6,11 +6,7 @@ body {
     font-family: 'Crimson Text', serif;
 }
 
-.pic-self {
-    max-width: 100%;
-}
-
-.pic-itty {
+img {
     max-width: 100%;
 }
 

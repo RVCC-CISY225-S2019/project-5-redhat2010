@@ -20,7 +20,7 @@
     <main class="main">
         <section class="hero">
             <div class="content">
-                <picture class="pic-self">
+                <picture>
                     <source media="(min-width: 1024px)" srcset="images/image_of_me-lrg.jpg">
                     <source media="(min-width: 960px)" srcset="images/image_of_me-med.jpg">
                     <source media="(min-width: 640px)" srcset="images/image_of_me-small.jpg">
@@ -44,7 +44,7 @@
         </section>
         <section>
             <figure>
-                <picture class="pic-itty">
+                <picture>
                     <source media="(min-width: 1024px)" srcset="images/itty1-lrg.jpg">
                     <source media="(min-width: 960px)" srcset="images/itty1-med.jpg">
                     <source media="(min-width: 640px)" srcset="images/itty1-small.jpg">
@@ -54,7 +54,7 @@
             </figure>
             <hr>
             <figure>
-                <picture class="pic-itty">
+                <picture>
                     <source media="(min-width: 1024px)" srcset="images/itty2-lrg.jpg">
                     <source media="(min-width: 960px)" srcset="images/itty2-med.jpg">
                     <source media="(min-width: 640px)" srcset="images/itty2-small.jpg">
@@ -64,7 +64,7 @@
             </figure>
             <hr>
             <figure>
-                <picture class="pic-itty">
+                <picture>
                     <source media="(min-width: 1024px)" srcset="images/itty3-lrg.jpg">
                     <source media="(min-width: 960px)" srcset="images/itty3-med.jpg">
                     <source media="(min-width: 640px)" srcset="images/itty3-small.jpg">
@@ -114,19 +114,19 @@
     <section class="form-container">
         <h1>Get in Touch</h1>
         <form class="contact" method="POST" action="https://formspree.io/graham@wandless.net">
-            <fieldset>
+            <fieldset class="form-box">
                 <legend>Feel free to contact me</legend>
                 <label for="email">Email</label>
                 <br>
-                <input type="email" name="email" class="email-box">
+                <input type="email" name="email" class="email-box" id="email">
                 <br><br>
                 <label for="message">Message</label>
                 <br>
-                <textarea name="message" class="message-box"></textarea>
+                <textarea name="message" class="message-box" id="message"></textarea>
                 <br><br>
                 <fieldset class="reply-query">
                     <legend>Would you like a reply?</legend>
-                    <input type="radio" name="reply-query" id="reply-yes" value="Yes" > Yes<br><br>
+                    <input type="radio" name="reply-query" id="reply-yes" value="Yes"> Yes<br><br>
                     <input type="radio" name="reply-query" id="reply-no" value="No" checked> No<br>
                 </fieldset>
                 <br><br>
